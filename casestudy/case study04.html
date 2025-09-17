@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <form  name="fml">
+            <div style="margin-left:300px;margin-top:100px; margin-right: 200px;">
+                <fieldset style="width:400px;">
+            <table align="center" width="700" cellpadding="3" >
+                <tr><td colspan="2" align="center"><h3 style="text-align: center;color:red;">REGISTRATION</h3></td></tr>
+                <tr><td>Name:</td><td><input type="text" size="25"></td></tr>
+                <tr><td>Password:</td><td><input type="text" size="25"></td></tr>
+                <tr><td>E-Mail:</td><td><input type="text" size="25"></td></tr>
+                <tr><td>Phone No:</td><td><input type="text" size="25"></td></tr>
+                <tr><td>Sex:</td><td><input type="radio" name="sex" value="Male">Male
+                            <input type="radio" name="sex" value="Female">Female</td></tr>
+                <tr><td>D.O.B:</td>
+                    <td><select name="date" id="dob">
+                        <option>1</option>
+                    </select>
+                    <select name="month" id="dob">
+                        <option>1</option>
+                    </select>
+                    <select name="year" id="dob">
+                        <option>1990</option>
+                    </select></td></tr>
+                <tr><td>Languages Known:</td>
+                <td><input type="checkbox" name="languages known" value="Telugu">Telugu
+                    <input type="checkbox" name="languages known" value="English">English
+                    <input type="checkbox" name="languages known" value="Tamil">Tamil
+                    <input type="checkbox" name="languages known" value="Hindi">Hindi
+                </td></tr>
+                <tr><td>Address:</td><td><textarea name="add" id="adds"></textarea></td></tr>
+                <tr><td><input type="submit" onclick="Submit" value="Submit">
+                <td><input type="reset" onclick="reset" value="Reset"></td></tr>
+                </table>
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>    

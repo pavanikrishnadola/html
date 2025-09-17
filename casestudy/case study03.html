@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body bgcolor="#FCC6BB" >
+        <form  name="fml">
+          <div style="margin-left:300px;margin-top:100px; margin-right: 200px;">
+                <fieldset style="width:400px;">
+            <table align="center" width="700" cellpadding="10" >
+            <tr><td colspan="2" align="center"><h2 style="color:black;font-style:bold;text-align: center;">Student Registration Form</h2></td></tr>
+            <tr><td>Roll No:</td><td><input type="text" size="50"></td></tr>
+            <tr><td>Studend Name:</td><td><input type="text" size="25" placeholder="FirstName"> -
+                <input type="text" placeholder="Last Name"></td></tr>
+            <tr><td>Father's Name:</td><td><input type="text"size="50"></td></tr>
+            <tr><td>Date Of Birth:</td><td>
+              <input type="text"size="5" placeholder="Day"> -
+              <input type="text"size="7" placeholder="Month">- 
+              <input type="text"size="10" placeholder="Year"><label style="font-style: italic;">(DD-MM-YYYY)</label>
+            </td></tr>
+            <tr><td>Mobile no:</td><td><input type="text" size="2" value="+91">-
+              <input type="text" name="mno" size="40"></td></tr>
+            <tr><td>Email id:</td><td><input type="text" size="50"></td></tr>
+            <tr><td>Password:</td><td><input type="text" size="50"></td></tr>
+            <tr><td>Gender:</td><td>
+              <input type="radio">Male
+              <input type="radio">Female
+            </td></tr>
+            <tr><td>Deparement:</td><td>
+              <input type="checkbox" name="dmt" value="cse">CSE 
+              <input type="checkbox" name="dmt" value="it">IT 
+              <input type="checkbox" name="dmt" value="ece">ECE
+              <input type="checkbox" name="dmt" value="civil">Civil 
+              <input type="checkbox" name="dmt" value="mech">Mech
+            </td></tr>
+            <tr><td>Course:</td><td>
+                <select name="Course">
+                  <option>----------------select course-----------</option>
+                  <option>mscs</option><option>hecs</option>
+                  <option>mpcs</option><option>cses</option>
+                  <option>pmc</option><option>mncs</option>
+                  <option>mscs</option><option>cmp</option>
+                  <option>cscs</option><option>pcms</option>
+                </select></td></tr>
+            <tr><td>Student Photo:</td><td>
+                <button type="button" onclick="ChooseFile()">ChooseFile</button>No file Choosen
+            </td></tr>
+            <tr><td>City:</td><td>
+               <input type="text"size="50">
+            </td></tr>
+            <tr><td>Address:</td><td>
+               <textarea name="adr"></textarea>
+            </td></tr>
+               <tr><td align="center"><button type="button" onclick="Register()">Register</button></td></tr>
+            </table> 
+        </form>
+    </body>
